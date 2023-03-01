@@ -1,0 +1,92 @@
+body{  
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 49%, rgba(253,187,45,1) 100%);
+    font-family: basic-sans, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table{
+    width: 100%;
+}
+
+th, tr {
+    text-align: center;
+}
+
+.pic{
+    width: 40%;
+    float:right;
+}
+
+.name{
+    width: 50%;
+    text-align: left;
+    float: left;
+    align-items: left;
+}
+
+.contact{
+    width: 40%;
+    text-align: right;
+    float: right;
+    align-items: right;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    background: #31CAB1;
+    height: 1200px;
+    width: 60%;
+    box-shadow: 0 0 48px rgba(0,0,0,.50);
+    text-align: center;
+    flex-direction: column;
+} 
+
+.headline{
+    height: 0px;
+    width: 100%;
+    background: black;
+}
+
+.headings{
+    width: 90%;
+    padding: 3%;
+    height: auto;
+    background: transparent;
+    border-bottom: 2px pink;
+    align-items: center;
+} 
+
+.line{
+    height: 2px;
+    width: 80%;
+    background: pink;
+}
+.body{
+    margin-top: 10px;
+    background: transparent;
+    height: 86%;
+    width: 95%;
+    display: flex;
+    border: 1px solid black;
+} 
+
+.row{
+    margin-top: 12px;
+    padding-left: 12px;
+    background: transparent;
+    height: 200px;
+    width: 80%;
+    border-bottom: 2px solid black;
+    text-align: justify;
+}
