@@ -1,6 +1,6 @@
 body{  
     background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 49%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 49%, rgba(253,187,45,1) 100%);
     font-family: basic-sans, sans-serif;
     min-height: 100vh;
     display: flex;
@@ -9,17 +9,21 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 49%, rgba(253,187,45,1) 100
     flex-direction: column;
 }
 
+
 h1, h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 
 table{
     width: 100%;
 }
 
+
 th, tr {
     text-align: center;
 }
+
 
 .pic{
     width: 40%;
@@ -33,12 +37,14 @@ th, tr {
     align-items: left;
 }
 
+
 .contact{
     width: 40%;
     text-align: right;
     float: right;
     align-items: right;
 }
+
 
 .container{
     display: flex;
@@ -52,11 +58,6 @@ th, tr {
     flex-direction: column;
 } 
 
-.headline{
-    height: 0px;
-    width: 100%;
-    background: black;
-}
 
 .headings{
     width: 90%;
@@ -67,11 +68,14 @@ th, tr {
     align-items: center;
 } 
 
+
 .line{
     height: 2px;
     width: 80%;
     background: pink;
 }
+
+
 .body{
     margin-top: 10px;
     background: transparent;
@@ -80,6 +84,8 @@ th, tr {
     display: flex;
     border: 1px solid black;
 } 
+
+
 
 .row{
     margin-top: 12px;
